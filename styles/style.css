@@ -7,11 +7,22 @@
 body {
   font-family: "Lato", sans-serif;
 }
+.btn {
+  padding: 16px 30px;
+  border-radius: 0.5rem;
+  background: #e55473;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+.pink {
+  color: #e55473;
+}
 /* header & banner styles here */
 header {
-  background-color: #e554731a;
+  background-color: rgba(229, 84, 115, 0.1);
 }
-
 .banner {
   display: flex;
   justify-content: center;
@@ -32,15 +43,7 @@ header {
   line-height: 30px;
   margin: 32px 0;
 }
-.btn {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 20px 43px;
-  border-radius: 8px;
-  background: #e55473;
-  border: none;
-}
+
 .banner > img {
   width: 500px;
   height: 600px;
@@ -171,9 +174,6 @@ header {
   padding: 14px 28px;
   margin-top: 28px;
 }
-.pink {
-  color: #e55473;
-}
 /* gallery styles */
 .gallery-container {
   margin-left: 160px;
@@ -241,15 +241,6 @@ input[type="email"] {
   font-size: 14px;
   font-weight: 400;
   margin-right: 14px;
-}
-.latest-deal-button {
-  padding: 16px 30px;
-  border-radius: 0.5rem;
-  background: #e55473;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
-  border: none;
 }
 
 /* footer styles here */
