@@ -233,3 +233,27 @@ input[type="email"] {
   font-weight: 500;
   border: none;
 }
+
+/* footer styles here */
+.footer-container {
+  background-color: #111010;
+  padding: 150px 100px;
+  text-align: center;
+  margin-top: 100px;
+}
+.footer-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+small {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
