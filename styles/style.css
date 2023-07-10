@@ -117,3 +117,41 @@ header {
   line-height: 2.1875rem;
   margin-top: 10px;
 }
+
+/* deal styles here */
+.deal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  text-align: center;
+  margin-top: 100px;
+}
+.deal-content-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.deal-content-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin-top: 16px;
+}
+.deal-content-button {
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  padding: 14px 28px;
+  margin-top: 28px;
+}
