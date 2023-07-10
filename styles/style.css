@@ -1,4 +1,48 @@
+/* common styles */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 * {
   padding: 0;
   margin: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+/* header & banner styles here */
+header {
+  background-color: #e554731a;
+}
+.banner > img {
+  width: 635px;
+  height: 800px;
+  padding-top: 50px;
+  margin-left: 97px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  padding-left: 90px;
+}
+.banner-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 32px 0;
+}
+.btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
 }
